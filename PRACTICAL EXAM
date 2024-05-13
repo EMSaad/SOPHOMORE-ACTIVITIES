@@ -1,0 +1,60 @@
+#include<iostream>
+#include<string>
+using namespace std;
+int main() 
+{
+	string username, password, choice;
+	float item1, item2, item3, item4, item5, sum, diff, product, quotient;
+	
+	cout<<"Type the username: ";
+	cin>>username; 
+	
+	cout<<"Type the password: ";
+	cin>>password; 
+	
+	do{
+	if (username=="admin10" && password=="admin12345"){
+		
+		
+		sum=item1+item2+item3+item4+item5;
+		diff=item1-item2-item3-item4-item5;
+		product=item1*item2*item3*item4*item5;
+		quotient=item1/item2/item3/item4/item5;
+		
+		cout<<"\n Type the First item:";
+		cin>>item1; 
+		
+		cout<<"\n Type the Second item:";
+		cin>>item2;
+		
+		cout<<"\n Type the Third item:";
+		cin>>item3;
+		
+		cout<<"\n Type the Fourth item:";
+		cin>>item4;
+		
+		cout<<"\n Type the Five item:";
+		cin>>item5;
+		
+		cout<<"\nThe total Sum is="<<sum<<".";
+		cout<<"\nThe total Difference is="<<diff<<".";
+		cout<<"\nThe total Product is="<<product<<".";
+		cout<<"\nThe total Quotient is="<<quotient<<".\n";
+		
+		cout<<"\n You want to try again? [Enter Y/y for YES, and press any key to finish]:";
+		cin>>choice;
+		
+		
+	}
+	
+	else {
+		
+		cout<<"\n Invalid log In, please try again.";
+		
+	}
+	
+	}
+	while (choice=="Y" || choice=="y");
+	
+	return 0;
+}
