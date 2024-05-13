@@ -1,0 +1,85 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main() 
+{
+
+    int right_answer, score;
+     
+     
+    cout<<"5+5 = ";
+    cin>>right_answer;
+    
+
+    if (right_answer==10){
+        cout<<"The answer you entered is correct.\n";
+        score++;
+    }
+    
+    else{
+         cout<<"The answer you entered is wrong.\n";
+    }
+    
+    cout<<"5+6 = ";
+    cin>>right_answer;
+    
+    
+
+    if (right_answer==11){
+        cout<<"The answer you entered is correct.\n";
+        score++;
+    }
+    
+    else{
+         cout<<"The answer you entered is wrong.\n";
+    }
+    
+    cout<<"2^2 = ";
+    cin>>right_answer;
+    
+    
+
+    if (right_answer==4){
+        cout<<"The answer you entered is correct.\n";
+        score++;
+    }
+    
+    else{
+         cout<<"The answer you entered is wrong.\n";
+    }
+    
+	cout<<"5/5 = ";
+    cin>>right_answer;
+    
+    
+
+    if (right_answer==1){
+        cout<<"The answer you entered is correct.\n";
+        score++;
+    }
+    
+    else{
+         cout<<"The answer you entered is wrong.\n";
+    }
+    
+    cout<<"6x1 = ";
+    cin>>right_answer;
+    
+    
+
+    if (right_answer==6){
+        cout<<"The answer you entered is correct.\n";
+        score++;
+    }
+    
+    else{
+         cout<<"The answer you entered is wrong.\n";
+    }
+    
+    cout<<"Your Score is: "<<score<<".\n";
+	cout<<"Thank you for participating.\n";
+  
+  
+
+    return 0;
+}
